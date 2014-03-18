@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [-n "$1"]; then
   ls -lah
   exit 0
@@ -8,4 +7,5 @@ if [-n "$1"]; then
 else
   ls -lah $1
   exit 0
+
 fi
