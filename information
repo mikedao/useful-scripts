@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+whoami > information.txt
+hostname >> information.txt
+pwd >> information.txt
+echo "Process complete."
